@@ -20486,7 +20486,7 @@ _.c=c
 _.d=d
 _.e=e
 _.f=f},
-aH(a,b,c,d){return new A.mt(a,d,b,c)},
+aI(a,b,c,d){return new A.mt(a,d,b,c)},
 mt:function mt(a,b,c,d){var _=this
 _.c=a
 _.d=b
@@ -24622,7 +24622,7 @@ _.b=b
 _.c=c
 _.e=d
 _.f=e},
-aI(a,b){return new A.a1a(a)},
+aH(a,b){return new A.a1a(a)},
 a1a:function a1a(a){this.a=a},
 dE:function dE(a){this.a=a},
 Wl:function Wl(a,b,c,d,e){var _=this
@@ -49728,7 +49728,7 @@ q=r.gcN()
 return o.a*r.a/q+o.b*r.b/q},
 $S:261}
 A.KQ.prototype={
-I(a){return A.aH(A.aWt(A.aw(a).r),null,null,null)}}
+I(a){return A.aI(A.aWt(A.aw(a).r),null,null,null)}}
 A.KP.prototype={
 I(a){A.kX(a,B.bH,t.c4).toString
 return A.fC(null,B.AM,null,new A.a2P(this,a),B.a8,"Back")}}
@@ -83376,7 +83376,7 @@ A.aAR.prototype={
 $2(a,b){var s=null,r=this.a
 r.a.toString
 r=r.a.fr
-r=A.aH(r,s,B.W9,s)
+r=A.aI(r,s,B.W9,s)
 r=A.E(s,A.aS(r,s,s),B.d,s,s,new A.bl(s,s,s,s,s,s,s,B.B),s,s,s,s,s,s,s,s)
 return A.SF(B.r,0,A.aLP(r,B.cH,A.b3H()),s)},
 $S:516}
@@ -85032,7 +85032,7 @@ b===$&&A.b()
 i=A.aR(A.a([new A.ac(n,A.E(B.bK,A.bE(A.a([h,g,f,e,d,c,b7.cp("Z","z","z",b)],p),B.m,B.c1,B.l),B.d,b8,b8,b8,b8,m,b8,new A.S(0,150,20,0),b8,b8,b8,i),b8)],p),B.m,B.aq,B.l)
 if(b7.aG){n=c0.b
 n=A.aS(A.E(b8,A.aR(A.a([A.D("Rules: \nDrag the Capital Letters to Small Letters",b8,b8,b8,b8,A.Z(b8,B.h,B.J,b8,b8,b8,b8,b8,b8,b8,b8,n*0.03,b8,b8,B.n,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8),b8,b8,b8),A.ab(b8,20,b8),A.c2(A.D("Start",b8,b8,b8,b8,A.Z(b8,b8,B.h,b8,b8,b8,b8,b8,b8,b8,b8,20,b8,b8,B.n,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8),b8,b8,b8),B.d,new A.aEO(b7),b8)],p),B.m,B.p,B.l),B.d,B.h,b8,b8,b8,n*0.25,b8,b8,b8,b8,b8,c0.a*0.3),b8,b8)}else n=A.ab(b8,b8,b8)
-m=b7.ai===650?A.aS(A.bE(A.a([new A.ds(u.J,"-","",b8),A.D("You Win \ud83d\udc4d ",b8,b8,b8,b8,A.Z(b8,B.h,B.J,b8,b8,b8,b8,b8,b8,b8,b8,50,b8,b8,B.n,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8),b8,b8,b8),A.mn(b8,A.aH(B.di,b8,b8,b8),b8,b8,B.ci,b8,b8,!1,new A.aEP(b7),b8,b8)],p),B.m,B.aB,B.l),b8,b8):A.E(b8,b8,B.d,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8)
+m=b7.ai===650?A.aS(A.bE(A.a([new A.ds(u.J,"-","",b8),A.D("You Win \ud83d\udc4d ",b8,b8,b8,b8,A.Z(b8,B.h,B.J,b8,b8,b8,b8,b8,b8,b8,b8,50,b8,b8,B.n,b8,b8,!0,b8,b8,b8,b8,b8,b8,b8,b8),b8,b8,b8),A.mn(b8,A.aI(B.di,b8,b8,b8),b8,b8,B.ci,b8,b8,!1,new A.aEP(b7),b8,b8)],p),B.m,B.aB,B.l),b8,b8):A.E(b8,b8,B.d,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8)
 if(b7.p3)h=A.E(b8,b8,B.d,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8,b8)
 else{h=b7.y
 h===$&&A.b()
@@ -85307,11 +85307,11 @@ V(){return new A.a_r(B.k)}}
 A.a_r.prototype={
 ae(){var s=null
 this.ar()
-this.e=A.a([A.aH(B.Hx,s,s,90),A.aH(B.Hy,s,s,90),A.aH(B.Hz,s,s,90),A.aH(B.HA,s,s,90),A.aH(B.HB,s,s,90),A.aH(B.HC,s,s,90),A.aH(B.HD,s,s,90),A.aH(B.HE,s,s,90),A.aH(B.HF,s,s,90)],t.p)},
+this.e=A.a([A.aI(B.Hx,s,s,90),A.aI(B.Hy,s,s,90),A.aI(B.Hz,s,s,90),A.aI(B.HA,s,s,90),A.aI(B.HB,s,s,90),A.aI(B.HC,s,s,90),A.aI(B.HD,s,s,90),A.aI(B.HE,s,s,90),A.aI(B.HF,s,s,90)],t.p)},
 I(a){var s,r=this,q=null,p=r.e
 p===$&&A.b()
 s=t.p
-return A.fI(A.aR(A.a([A.aOJ(p,new A.aCw(),new A.aCu(r),new A.aCx(),B.a8,4,8),A.aHR(B.p,A.a([A.fC(B.h2,A.aH(B.pK,q,q,q),50,new A.aCy(r),B.I,q),A.fC(B.dp,A.aH(B.HL,q,q,q),50,new A.aCz(r),B.I,q)],s))],s),B.bv,B.p,B.l),q,q,q,B.E)}}
+return A.fI(A.aR(A.a([A.aOJ(p,new A.aCw(),new A.aCu(r),new A.aCx(),B.a8,4,8),A.aHR(B.p,A.a([A.fC(B.h2,A.aI(B.pK,q,q,q),50,new A.aCy(r),B.I,q),A.fC(B.dp,A.aI(B.HL,q,q,q),50,new A.aCz(r),B.I,q)],s))],s),B.bv,B.p,B.l),q,q,q,B.E)}}
 A.aCu.prototype={
 $2(a,b){var s=this.a
 s.G(new A.aCv(s,a,b))},
@@ -85330,7 +85330,7 @@ $1(a){A.zj().$1(B.c.U(new A.cy(Date.now(),!1).j(0),5,22)+" reorder started: inde
 $S:6}
 A.aCy.prototype={
 $0(){var s=this.a
-s.G(new A.aCt(s,A.aH(B.pM,null,null,90)))},
+s.G(new A.aCt(s,A.aI(B.pM,null,null,90)))},
 $S:0}
 A.aCt.prototype={
 $0(){var s=this.a.e
@@ -85384,7 +85384,7 @@ case 5:A.P("I am 12")
 A.P("I am 13")
 return A.r(null,r)}})
 return A.t($async$bo,r)},
-I(a){var s,r,q=this,p=null,o=t.w,n=a.p(o).f.a,m=A.mn(p,A.aH(B.di,p,p,p),p,p,B.ci,p,p,!1,new A.aE1(q),p,p),l=n.b,k=!(a.p(o).f.a.a>=1100)?l*0.1:l*0.15,j=$.bB()[q.a.c].f,i=t.p,h=A.bE(A.a([A.E(p,A.fC(p,A.aH(B.bz,B.h,p,40),p,new A.aE2(a),B.a8,p),B.d,p,p,p,p,p,p,new A.S(0,40,0,0),p,p,p,p)],i),B.m,B.p,B.l),g=q.a.c
+I(a){var s,r,q=this,p=null,o=t.w,n=a.p(o).f.a,m=A.mn(p,A.aI(B.di,p,p,p),p,p,B.ci,p,p,!1,new A.aE1(q),p,p),l=n.b,k=!(a.p(o).f.a.a>=1100)?l*0.1:l*0.15,j=$.bB()[q.a.c].f,i=t.p,h=A.bE(A.a([A.E(p,A.fC(p,A.aI(B.bz,B.h,p,40),p,new A.aE2(a),B.a8,p),B.d,p,p,p,p,p,p,new A.S(0,40,0,0),p,p,p,p)],i),B.m,B.p,B.l),g=q.a.c
 k=A.E(p,A.ch(B.N,A.a([h,A.bE(A.a([A.E(p,A.o8(A.cU($.bB()[g].a,p),""+g),B.d,p,p,p,p,p,p,new A.S(0,10,0,0),new A.S(5,5,5,5),p,p,p)],i),B.m,B.aq,B.l)],i),B.y,B.U,p),B.d,p,p,new A.bl(j,p,p,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),p,p,p,B.B),p,k,p,p,p,p,p,1/0)
 j=!(a.p(o).f.a.a>=1100)?50:30
 h=q.d
@@ -85652,16 +85652,16 @@ e=j.ax.b
 if(e==null)e="                                   "
 r=t.p
 e=A.aS(A.E(i,A.aR(A.a([s,A.D("Email : "+e,i,i,i,i,A.Z(i,i,B.bD,i,i,i,i,i,i,i,i,i,i,i,B.n,i,i,!0,i,i,i,i,i,i,i,i),i,i,i)],r),B.m,B.p,B.l),B.d,B.h,i,i,i,i,i,i,i,i,i,i),i,i)
-s=A.bJ(i,i,A.aH(B.pN,B.h,i,i),new A.asm(j,b),B.w,i,B.zX,i)
-q=A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asn(b),B.w,i,B.A4,i)
+s=A.bJ(i,i,A.aI(B.pN,B.h,i,i),new A.asm(j,b),B.w,i,B.zX,i)
+q=A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asn(b),B.w,i,B.A4,i)
 p=t.w
-o=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.aso(b),B.w,i,B.zV,i):A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asr(b),B.w,i,B.A3,i)
-n=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.ass(b),B.w,i,B.zW,i):A.bJ(i,i,A.aH(B.pR,B.J,i,i),new A.ast(b),B.w,i,B.zZ,i)
-m=A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asu(j),B.w,i,B.A0,i)
-l=A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asv(j,b),B.w,i,B.A2,i)
-k=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asw(b),B.w,i,B.hF,i):A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asx(b),B.w,i,B.hF,i)
-p=!(b.p(p).f.a.a<=650)?A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asy(j),B.w,i,B.zY,i):A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asp(j),B.w,i,B.A_,i)
-return A.aMN(A.E(i,A.qP(A.a([f,e,s,q,o,n,m,l,k,p,A.bJ(i,i,A.aH(B.a9,B.G,i,i),new A.asq(j,b),B.w,i,B.A1,i)],r),i,B.I),B.d,i,i,new A.bl(i,i,i,i,i,new A.i2(B.cl,B.pC,B.ba,h,g,i),i,B.B),i,i,i,i,i,i,i,i))},
+o=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.aso(b),B.w,i,B.zV,i):A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asr(b),B.w,i,B.A3,i)
+n=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.ass(b),B.w,i,B.zW,i):A.bJ(i,i,A.aI(B.pR,B.J,i,i),new A.ast(b),B.w,i,B.zZ,i)
+m=A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asu(j),B.w,i,B.A0,i)
+l=A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asv(j,b),B.w,i,B.A2,i)
+k=!(b.p(p).f.a.a>=1100)?A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asw(b),B.w,i,B.hF,i):A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asx(b),B.w,i,B.hF,i)
+p=!(b.p(p).f.a.a<=650)?A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asy(j),B.w,i,B.zY,i):A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asp(j),B.w,i,B.A_,i)
+return A.aMN(A.E(i,A.qP(A.a([f,e,s,q,o,n,m,l,k,p,A.bJ(i,i,A.aI(B.a9,B.G,i,i),new A.asq(j,b),B.w,i,B.A1,i)],r),i,B.I),B.d,i,i,new A.bl(i,i,i,i,i,new A.i2(B.cl,B.pC,B.ba,h,g,i),i,B.B),i,i,i,i,i,i,i,i))},
 kk(a){return this.aoh(a)},
 aoh(a){var s=0,r=A.u(t.H),q,p
 var $async$kk=A.p(function(b,c){if(b===1)return A.q(c,r)
@@ -86148,9 +86148,9 @@ s.y2$=0
 this.au()},
 I(a){var s,r,q,p=this,o=null
 A.D("Receive an Email to Reset Your Passwrod.",o,o,o,o,o,o,o,o)
-s=A.aH(B.fs,o,o,o)
+s=A.aI(B.fs,o,o,o)
 r=A.t5(!1,p.f,A.iL(o,new A.dT(4,A.c0(18),B.bV),o,new A.S(20,15,20,15),o,o,o,o,!0,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"Email",o,o,o,o,!1,o,o,o,o,o,s,o,o,o,o,o,o,o,o,o,o,o),B.hA,!1,new A.aty(p),B.d1,new A.atz())
-s=A.fT(o,B.P,o,0,A.fC(o,A.aH(B.bz,B.J,o,o),o,new A.atA(a),B.a8,o),o)
+s=A.fT(o,B.P,o,0,A.fC(o,A.aI(B.bz,B.J,o,o),o,new A.atA(a),B.a8,o),o)
 q=a.p(t.w).f.a.a<=650?A.ab(A.cU("assets/phonics3.png",B.ab),100,o):A.ab(o,o,o)
 return A.cK(s,B.h,A.aS(A.fI(A.E(o,new A.ac(B.bw,A.aIs(A.aR(A.a([q,A.ab(A.cU("assets/R.gif",B.ab),100,o),A.ab(o,15,o),r,A.ab(o,15,o),A.c2(A.D("Password Reset Button",o,o,o,o,A.Z(o,o,B.h,o,o,o,o,o,o,o,o,20,o,o,B.n,o,o,!0,o,o,o,o,o,o,o,o),B.C,o,o),B.d,p.ga31(),o)],t.p),B.m,B.aB,B.l),p.e),o),B.d,B.h,o,o,o,o,o,o,o,o,o,o),o,o,o,B.E),o,o),o,o,o)},
 wq(){var s=0,r=A.u(t.z),q=1,p,o=this,n,m,l,k,j,i
@@ -86351,17 +86351,17 @@ d=i.r.b
 if(d==null)d="                                   "
 r=t.p
 d=A.aS(A.E(h,A.aR(A.a([s,A.D("Email : "+d,h,h,h,h,A.Z(h,h,B.bD,h,h,h,h,h,h,h,h,h,h,h,B.n,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)],r),B.m,B.p,B.l),B.d,B.h,h,h,h,h,h,h,h,h,h,h),h,h)
-s=A.bJ(h,h,A.aH(B.pN,B.h,h,h),new A.awo(a),B.w,A.D("(Best Works in Laptop)",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.zX,h)
-q=A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awp(a),B.w,h,B.A4,h)
+s=A.bJ(h,h,A.aI(B.pN,B.h,h,h),new A.awo(a),B.w,A.D("(Best Works in Laptop)",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.zX,h)
+q=A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awp(a),B.w,h,B.A4,h)
 p=t.w
-o=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awq(a),B.w,h,B.zV,h):A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awv(a),B.w,h,B.A3,h)
-n=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.aww(a),B.w,A.D("Free Worksheets",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.zW,h):A.bJ(h,h,A.aH(B.pR,B.J,h,h),new A.awx(a),B.w,h,B.zZ,h)
-m=A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awy(a),B.w,h,B.A0,h)
-l=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awz(a),B.w,h,B.Ui,h):A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awA(a),B.w,h,B.Ur,h)
-k=A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awB(a),B.w,h,B.A2,h)
-j=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awC(a),B.w,h,B.hF,h):A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awr(a),B.w,h,B.hF,h)
-p=!(a.p(p).f.a.a<=650)?A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.aws(i),B.w,h,B.zY,h):A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awt(i),B.w,A.D("Refer & Earn",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.A_,h)
-return A.aMN(A.E(h,A.qP(A.a([e,d,s,q,o,n,m,l,k,j,p,A.bJ(h,h,A.aH(B.a9,B.G,h,h),new A.awu(i,a),B.w,h,B.A1,h)],r),h,B.I),B.d,h,h,new A.bl(h,h,h,h,h,new A.i2(B.cl,B.pC,B.ba,g,f,h),h,B.B),h,h,h,h,h,h,h,h))},
+o=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awq(a),B.w,h,B.zV,h):A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awv(a),B.w,h,B.A3,h)
+n=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.aww(a),B.w,A.D("Free Worksheets",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.zW,h):A.bJ(h,h,A.aI(B.pR,B.J,h,h),new A.awx(a),B.w,h,B.zZ,h)
+m=A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awy(a),B.w,h,B.A0,h)
+l=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awz(a),B.w,h,B.Ui,h):A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awA(a),B.w,h,B.Ur,h)
+k=A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awB(a),B.w,h,B.A2,h)
+j=!(a.p(p).f.a.a>=1100)?A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awC(a),B.w,h,B.hF,h):A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awr(a),B.w,h,B.hF,h)
+p=!(a.p(p).f.a.a<=650)?A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.aws(i),B.w,h,B.zY,h):A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awt(i),B.w,A.D("Refer & Earn",h,h,h,h,A.Z(h,h,B.q,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),B.A_,h)
+return A.aMN(A.E(h,A.qP(A.a([e,d,s,q,o,n,m,l,k,j,p,A.bJ(h,h,A.aI(B.a9,B.G,h,h),new A.awu(i,a),B.w,h,B.A1,h)],r),h,B.I),B.d,h,h,new A.bl(h,h,h,h,h,new A.i2(B.cl,B.pC,B.ba,g,f,h),h,B.B),h,h,h,h,h,h,h,h))},
 kk(a){return this.aoi(a)},
 aoi(a){var s=0,r=A.u(t.H),q,p
 var $async$kk=A.p(function(b,c){if(b===1)return A.q(c,r)
@@ -86619,7 +86619,7 @@ A.b9(i,j,!1)
 j=A.e_(new A.bu(i))
 r=t.s
 q=t.z
-return new A.Yx(new A.dj(!1,k),s,new A.ik(p,p,p,p,p,p,p),j.gdM(j),A.a([n,"Demo",n,n,n,n,n,n,n,n,n,n],r),A.a(["Alphabet Sounds","Lesson 1","Lesson 2",m,"Fun with Alphabet","Fun with Colors","Fun with Food","Fun with Numbers","Little Puzzle","Learn about Family "," Fun with Time","Fun with Small Letters"],r),A.a(["Lesson 1","Lesson 2","Lesson 3","Lesson 4","Lesson 5","Lesson 6","Lesson 7","Lesson 8","Lesson 9","Lesson 10",m,"Cetificate"],r),A.a(["Lesson 1","Lesson 2","Lesson 3","Lesson 4","Lesson 5","Lesson 6","Lesson 7",m,"Practice - Level 3 ",l,"Test 1","Test 2"],r),A.a(["Single Consonant","Consonant Digraphs","Important Exceptions","Silent Sounds","3 Letter 'S' & 'No' Family","Initial Consonant Blends","Final Consonant","Vowel Sounds","Final E Rule","Dobele Vowels","Rare Sounds",m],r),A.a([" A to D "," E to H "," I to N","Letter O"," P to T "," U to Z ",m,l,"Test 2 ","Test 3","Test 4","Final Test"],r),A.a([" A - Spellings ","More A - Spellings","B - D Spellings","E - F Spellings","G - H Spellings","I - Spellings","K - N Spellings","O - Spellings","P - R Spellings","T - U Spellings","V - Z Spellings",m],r),A.a(["","","","","","","","","","","",""],r),A.a(["Text 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11 ","Cetificate"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["video","video","test","test","test","","","","","","",""],r),A.a(["video","video","video","test","test","","","","","","",""],r),A.a(["free","video","video","video","video","video","video","video","video","video","test","video"],r),A.a(["free","video","video","video","video","video","video","test"],r),A.a(["free","video","video","video","video","video","video","video","video","video","video","test"],r),A.a(["free","video","video","video","video","video","test","test"],r),A.a(["free","video","video","video","video","video","video","video","video","video","video","test"],r),A.a(["Click Next","At","As","In","Up","Of","Do","Go","Hi","Me","My","No","So","To","We","You"],r),A.a(["Click Next","And","Bag","Can","Dam","Egg","Fan","Gap","Had","Ink","Jam","Kit","Leg","Man","Net","Owl","Pig","Que","Rat","Sat","Ten","Urn","Van","Wax","Box","Yes","Zoo"],r),A.a(["Click Next","Away","Body","Cake","Damp","Fast","Gate","Hand","India","Jack","Kite","Late","Made","Name","Pink","Rate","Sand","Take","Vent","Went"],r),A.a(["Click Next","Back","Apex","Crayon","Ball","Auto","Saw","star","Book","Block","City","Chair","Drum","Peach","Fish","Giraffe","Iron","Knot","Window","Moon"],r),A.a(["Click Next","Violin","House","Airplace","Prize","Ring","Queen","Scale","Shoe","Desk","Slide","Smoke","Spoon","Table","Three","Feather","Truck","Twins","Music","Ruler"],r),A.a(["Click Next","Turtle","bull","Wheel","Yarn","Zebra","Brick","Pitch","Clown","Joker","Knit","Write","Sprite","Birth","Bless","Float","Knock","Croak","Stock","Toast"],r),A.C(t.N,t.y),A.a9(["\ud83c\udf4f",B.bl,"\ud83c\udf4b",B.bN,"\ud83c\udf45",B.J,"\ud83c\udf47",B.bD,"\ud83e\udd65",B.wo,"\ud83e\udd55",B.bm],q,q),new A.mu(p),new A.dE(p),B.k)}}
+return new A.Yx(new A.dj(!1,k),s,new A.ik(p,p,p,p,p,p,p),j.gdM(j),A.a([n,"Demo",n,n,n,n,n,n,n,n,n,n],r),A.a(["Alphabet Sounds","Lesson 1","Lesson 2",m,"Fun with Alphabet","Fun with Colors","Fun with Food","Fun with Numbers","Little Puzzle","Learn about Family "," Fun with Time","Fun with Small Letters"],r),A.a(["Lesson 1","Lesson 2","Lesson 3","Lesson 4","Lesson 5","Lesson 6","Lesson 7","Lesson 8","Lesson 9","Lesson 10","Lesson 11",m,"Cetificate"],r),A.a(["Lesson 1","Lesson 2","Lesson 3","Lesson 4","Lesson 5","Lesson 6","Lesson 7",m,"Practice - Level 3 ",l,"Test 1","Test 2"],r),A.a(["Single Consonant","Consonant Digraphs","Important Exceptions","Silent Sounds","3 Letter 'S' & 'No' Family","Initial Consonant Blends","Final Consonant","Vowel Sounds","Final E Rule","Dobele Vowels","Rare Sounds",m],r),A.a([" A to D "," E to H "," I to N","Letter O"," P to T "," U to Z ",m,l,"Test 2 ","Test 3","Test 4","Final Test"],r),A.a([" A - Spellings ","More A - Spellings","B - D Spellings","E - F Spellings","G - H Spellings","I - Spellings","K - N Spellings","O - Spellings","P - R Spellings","T - U Spellings","V - Z Spellings",m],r),A.a(["","","","","","","","","","","",""],r),A.a(["Text 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11 ","Cetificate"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["Day 1","Day 2","Day 3","Day 4","Day 5","Day 6","Day 7","Day 8","Day 9","Day 10 ","Day 11","Day 12"],r),A.a(["video","video","test","test","test","","","","","","",""],r),A.a(["video","video","video","test","test","","","","","","",""],r),A.a(["free","video","video","video","video","video","video","video","video","video","video","test","video"],r),A.a(["free","video","video","video","video","video","video","test"],r),A.a(["free","video","video","video","video","video","video","video","video","video","video","test"],r),A.a(["free","video","video","video","video","video","test","test"],r),A.a(["free","video","video","video","video","video","video","video","video","video","video","test"],r),A.a(["Click Next","At","As","In","Up","Of","Do","Go","Hi","Me","My","No","So","To","We","You"],r),A.a(["Click Next","And","Bag","Can","Dam","Egg","Fan","Gap","Had","Ink","Jam","Kit","Leg","Man","Net","Owl","Pig","Que","Rat","Sat","Ten","Urn","Van","Wax","Box","Yes","Zoo"],r),A.a(["Click Next","Away","Body","Cake","Damp","Fast","Gate","Hand","India","Jack","Kite","Late","Made","Name","Pink","Rate","Sand","Take","Vent","Went"],r),A.a(["Click Next","Back","Apex","Crayon","Ball","Auto","Saw","star","Book","Block","City","Chair","Drum","Peach","Fish","Giraffe","Iron","Knot","Window","Moon"],r),A.a(["Click Next","Violin","House","Airplace","Prize","Ring","Queen","Scale","Shoe","Desk","Slide","Smoke","Spoon","Table","Three","Feather","Truck","Twins","Music","Ruler"],r),A.a(["Click Next","Turtle","bull","Wheel","Yarn","Zebra","Brick","Pitch","Clown","Joker","Knit","Write","Sprite","Birth","Bless","Float","Knock","Croak","Stock","Toast"],r),A.C(t.N,t.y),A.a9(["\ud83c\udf4f",B.bl,"\ud83c\udf4b",B.bN,"\ud83c\udf45",B.J,"\ud83c\udf47",B.bD,"\ud83e\udd65",B.wo,"\ud83e\udd55",B.bm],q,q),new A.mu(p),new A.dE(p),B.k)}}
 A.Yx.prototype={
 hv(a){return this.Z4(a)},
 Z4(a){var s=0,r=A.u(t.z)
@@ -86692,7 +86692,7 @@ else if(r===6)return s.lm(s.cy,s.go,s.p1)
 else return s.lm(s.ch,s.fr,s.k3)},
 lm(a,b,c){var s=this,r=null,q=s.c.p(t.w).f,p=s.gLM(),o=$.bB()[s.a.c].e
 if(o===1)o=9
-else if(o===2)o=12
+else if(o===2)o=13
 else if(o===3)o=8
 else if(o===4)o=12
 else if(o===5)o=7
@@ -86703,11 +86703,11 @@ a.p(f).toString
 a.p(f).toString
 s=a.p(f).f.a.b
 if(a.p(f).f.a.a<=650){r=$.bB()[i.a.c].f
-r=new A.F4(A.a([A.RY(A.aH(B.j_,h,h,h),"whatsapp",new A.azu(i)),A.RY(A.aH(B.pL,h,h,h),"facebook",new A.azv(i)),A.RY(A.D(g,h,h,h,h,h,h,h,h),g,new A.azw(i)),A.RY(A.aH(B.HG,h,h,h),"Mail",new A.azx(i)),A.RY(A.aH(B.HK,h,h,h),"Call Friend",new A.azy(i))],t.TS),B.ep,r,0.4,B.HO,new A.azz(i),new A.azA(i),!0,i.d,12,12,h)}else r=h
-q=a.p(f).f.a.a<=650?A.dh(h,A.aH(B.iZ,B.dp,h,40),100,h,h,20,395,10):A.dh(h,A.aH(B.iZ,B.dp,h,40),100,h,h,20,312,10)
+r=new A.F4(A.a([A.RY(A.aI(B.j_,h,h,h),"whatsapp",new A.azu(i)),A.RY(A.aI(B.pL,h,h,h),"facebook",new A.azv(i)),A.RY(A.D(g,h,h,h,h,h,h,h,h),g,new A.azw(i)),A.RY(A.aI(B.HG,h,h,h),"Mail",new A.azx(i)),A.RY(A.aI(B.HK,h,h,h),"Call Friend",new A.azy(i))],t.TS),B.ep,r,0.4,B.HO,new A.azz(i),new A.azA(i),!0,i.d,12,12,h)}else r=h
+q=a.p(f).f.a.a<=650?A.dh(h,A.aI(B.iZ,B.dp,h,40),100,h,h,20,395,10):A.dh(h,A.aI(B.iZ,B.dp,h,40),100,h,h,20,312,10)
 p=a.p(f).f.a.a<=650?s/3:s/6
 o=$.bB()[i.a.c].f
-n=a.p(f).f.a.a<=650?A.bE(A.a([A.E(h,A.fC(h,A.aH(B.bz,B.h,h,40),h,new A.azB(a),B.a8,h),B.d,h,h,h,h,h,h,new A.S(0,40,0,0),h,h,h,h)],t.p),B.m,B.p,B.l):A.bE(B.eh,B.m,B.p,B.l)
+n=a.p(f).f.a.a<=650?A.bE(A.a([A.E(h,A.fC(h,A.aI(B.bz,B.h,h,40),h,new A.azB(a),B.a8,h),B.d,h,h,h,h,h,h,new A.S(0,40,0,0),h,h,h,h)],t.p),B.m,B.p,B.l):A.bE(B.eh,B.m,B.p,B.l)
 m=i.a.c
 if(a.p(f).f.a.a<=650)l=A.cU($.bB()[i.a.c].a,h)
 else{l=$.bB()[i.a.c].b
@@ -86719,7 +86719,7 @@ n=A.E(h,new A.ef(B.r,h,h,A.aR(A.a([n,A.D($.bB()[i.a.c].c,h,h,h,h,A.aRY(h,h,h,h,h
 m=A.ab(h,5,h)
 l=a.p(f).f.a.a<=650?60:10
 j=$.bB()[i.a.c].f
-f=a.p(f).f.a.a<=650?A.bE(A.a([A.D("Suuport?",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,B.n,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),A.c2(A.aJz(B.cy,A.a([A.aH(B.Hv,B.bN,h,20),A.ab(h,h,2),A.D("Call Us ",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)],k),B.nj,B.X,h,B.cy,0,0,h,B.bI),B.d,new A.azC(i),A.fj(h,h,h,h,h,h,h,h,h,h,h,h,h,B.ep,h,new A.fU(A.c0(12),B.u),h,h,h,h)),A.c2(A.aJz(B.cy,A.a([A.aH(B.j_,B.bN,h,20),A.ab(h,h,2),A.D("Text Us ",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)],k),B.nj,B.X,h,B.cy,0,0,h,B.bI),B.d,new A.azD(i),A.fj(h,h,h,h,h,h,h,h,h,h,h,h,h,B.ep,h,new A.fU(A.c0(12),B.u),h,h,h,h)),A.ab(h,3,60)],k),B.m,B.c1,B.l):h
+f=a.p(f).f.a.a<=650?A.bE(A.a([A.D("Suuport?",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,B.n,h,h,!0,h,h,h,h,h,h,h,h),h,h,h),A.c2(A.aJz(B.cy,A.a([A.aI(B.Hv,B.bN,h,20),A.ab(h,h,2),A.D("Call Us ",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)],k),B.nj,B.X,h,B.cy,0,0,h,B.bI),B.d,new A.azC(i),A.fj(h,h,h,h,h,h,h,h,h,h,h,h,h,B.ep,h,new A.fU(A.c0(12),B.u),h,h,h,h)),A.c2(A.aJz(B.cy,A.a([A.aI(B.j_,B.bN,h,20),A.ab(h,h,2),A.D("Text Us ",h,h,h,h,A.Z(h,h,B.h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,!0,h,h,h,h,h,h,h,h),h,h,h)],k),B.nj,B.X,h,B.cy,0,0,h,B.bI),B.d,new A.azD(i),A.fj(h,h,h,h,h,h,h,h,h,h,h,h,h,B.ep,h,new A.fU(A.c0(12),B.u),h,h,h,h)),A.ab(h,3,60)],k),B.m,B.c1,B.l):h
 return new A.tq(A.cK(h,B.h,A.ch(B.N,A.a([q,A.fI(A.aR(A.a([p,o,n,m,A.E(B.nE,f,B.d,h,h,new A.bl(j,h,h,new A.cd(new A.aN(24,24),new A.aN(20,20),B.L,B.L),h,h,h,B.B),h,l,h,new A.S(10,0,10,0),h,h,h,1/0)],k),B.m,B.p,B.l),h,h,h,B.E)],k),B.y,B.U,h),h,r,B.oh),new A.azE(i),h)}}
 A.aA9.prototype={
 $1(a){var s=this.a
@@ -87096,7 +87096,7 @@ p===$&&A.b()
 p=A.aIv(new A.aC6(r),p,t.H)
 s=r.d
 s===$&&A.b()
-return A.cK(q,q,p,q,A.ab(A.mn(q,A.aH(s.a.f?B.HJ:B.pO,q,q,q),q,q,B.ci,q,q,!1,new A.aC7(r),q,q),25,25),B.oh)}}
+return A.cK(q,q,p,q,A.ab(A.mn(q,A.aI(s.a.f?B.HJ:B.pO,q,q,q),q,q,B.ci,q,q,!1,new A.aC7(r),q,q),25,25),B.oh)}}
 A.aC6.prototype={
 $2(a,b){var s,r
 if(b.a===B.dZ){s=this.a
@@ -87179,14 +87179,14 @@ if(!(a.p(d).f.a.a>=1100)||A.ev(a)){s=A.D("Phonics Circle",e,e,e,e,A.df(e,e,30,e)
 r=A.lW(new A.aN(10,10))
 q=t.p
 s=A.fT(A.a([new A.ac(B.de,A.E(e,A.bE(A.a([A.cU("assets/elesmall.png",B.ab)],q),B.m,B.p,B.l),B.d,e,e,new A.bl(B.h,e,e,r,e,e,e,B.B),e,e,e,new A.S(0,5,5,5),e,e,e,50),e)],q),e,!1,0,e,s)}else s=e
-r=A.mn(e,A.aH(B.di,e,e,e),e,e,B.ci,e,e,!1,new A.aAD(f),e,e)
+r=A.mn(e,A.aI(B.di,e,e,e),e,e,B.ci,e,e,!1,new A.aAD(f),e,e)
 q=!(a.p(d).f.a.a<=650)?1/0:c.b*0.95
 p=!(a.p(d).f.a.a<=650)?B.i5:B.cC
 p=A.AA(p,new A.eg("assets/speakingbk.png",e,e),e)
 o=c.b
 n=a.p(d).f.a.a>=1100?o*0.05:o*0.15
 m=$.bB()[f.a.d].f
-l=a.p(d).f.a.a>=1100?A.ab(e,e,e):A.E(e,A.hx(A.fC(e,A.aH(B.bz,B.h,e,40),e,new A.aAE(a),B.a8,e),B.bp,e,e,e),B.d,e,e,e,e,e,e,new A.S(0,40,0,0),e,e,e,e)
+l=a.p(d).f.a.a>=1100?A.ab(e,e,e):A.E(e,A.hx(A.fC(e,A.aI(B.bz,B.h,e,40),e,new A.aAE(a),B.a8,e),B.bp,e,e,e),B.d,e,e,e,e,e,e,new A.S(0,40,0,0),e,e,e,e)
 k=t.p
 l=A.bE(A.a([l],k),B.m,B.p,B.l)
 j=f.a.d
@@ -87530,7 +87530,7 @@ q=A.a([],r)
 p=o.d
 p===$&&A.b()
 if(!p)q.push(o.aim(a))
-q.push(o.x.length===0?A.aS(A.E(B.r,A.bE(A.a([A.D("You Win ",n,n,n,n,A.Z(n,B.h,B.J,n,n,n,n,n,n,n,n,50,n,n,B.n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),A.mn(n,A.aH(B.di,n,n,n),n,n,B.ci,n,n,!1,new A.aq6(o),n,n)],r),B.m,B.aB,B.l),B.d,n,n,n,n,200,n,n,n,n,n,400),n,n):A.E(n,n,B.d,n,n,n,n,n,n,n,n,n,n,n))
+q.push(o.x.length===0?A.aS(A.E(B.r,A.bE(A.a([A.D("You Win ",n,n,n,n,A.Z(n,B.h,B.J,n,n,n,n,n,n,n,n,50,n,n,B.n,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),A.mn(n,A.aI(B.di,n,n,n),n,n,B.ci,n,n,!1,new A.aq6(o),n,n)],r),B.m,B.aB,B.l),B.d,n,n,n,n,200,n,n,n,n,n,400),n,n):A.E(n,n,B.d,n,n,n,n,n,n,n,n,n,n,n))
 return A.k0(!0,A.cK(s,n,A.aS(A.aR(q,B.m,B.aq,B.l),n,n),n,n,n),!0,B.I,!0,!0)},
 aim(a){var s=this,r=s.x,q=r.length===0?"Done":"",p=t.wH,o=t.p
 return A.aR(A.a([s.Gc(a,B.Jn,r,new A.aq2(s),q),A.bE(A.a([s.Gc(a,A.a([B.aU],p),s.y,new A.aq3(s),"Fruits"),s.Gc(a,A.a([B.aA],p),s.z,new A.aq4(s),"Vegetables")],o),B.m,B.aq,B.l)],o),B.m,B.aq,B.l)},
@@ -87652,7 +87652,7 @@ $2(a,b){var s=b===B.jL?B.U:B.zA,r=this.a
 return A.ch(B.N,A.a([r.air(),A.aJ2(0,new A.Kn(r.c,null))],t.p),B.y,s,null)},
 $S:590}
 A.Kn.prototype={
-I(a){var s=null,r=this.c,q=r.a.f?A.E(s,s,B.d,s,s,s,s,s,s,s,s,s,s,s):A.E(B.r,A.aH(B.pO,B.bk,s,80),B.d,B.id,s,s,s,s,s,s,s,s,s,s),p=t.p
+I(a){var s=null,r=this.c,q=r.a.f?A.E(s,s,B.d,s,s,s,s,s,s,s,s,s,s,s):A.E(B.r,A.aI(B.pO,B.bk,s,80),B.d,B.id,s,s,s,s,s,s,s,s,s,s),p=t.p
 return A.cr(B.aJ,A.ch(B.N,A.a([q,A.dh(0,A.bE(A.a([A.hV(A.E(s,new A.FQ(r,!0,s),B.d,s,s,s,s,8,s,new A.S(3,3,3,3),s,s,s,s),1),A.ab(s,s,10)],p),B.m,B.p,B.l),s,s,0,0,s,s)],p),B.y,B.U,s),B.D,!1,s,s,s,s,s,s,s,s,s,s,s,new A.a1U(this),s,s,s,s,s,s)}}
 A.a1U.prototype={
 $0(){var s=this.a.c
@@ -88129,7 +88129,7 @@ this.r.b7(0)
 var s=this.d
 s===$&&A.b()
 s.m()},
-I(a){var s,r,q=null,p=A.D("Phonics Circle",q,q,q,q,A.df(q,q,30,q),q,q,q),o=A.fC(q,A.aH(B.bz,B.h,q,q),q,new A.auh(a),B.a8,q),n=A.lW(new A.aN(10,10)),m=t.p
+I(a){var s,r,q=null,p=A.D("Phonics Circle",q,q,q,q,A.df(q,q,30,q),q,q,q),o=A.fC(q,A.aI(B.bz,B.h,q,q),q,new A.auh(a),B.a8,q),n=A.lW(new A.aN(10,10)),m=t.p
 p=A.fT(A.a([A.E(q,A.cU("assets/elesmall.png",B.ab),B.d,q,q,new A.bl(B.h,q,q,n,q,q,q,B.B),q,q,q,new A.S(0,5,5,5),q,q,q,50)],m),q,!0,0,o,p)
 o=A.ab(A.cU("assets/phonics3.png",B.ab),100,q)
 n=A.ab(A.cU("assets/newrosie.gif",B.ab),140,q)
@@ -88181,9 +88181,9 @@ return new A.Wl(new A.bi(null,t.am),new A.h9(B.aW,s),new A.h9(B.aW,s),A.e_(new A
 A.Wl.prototype={
 I(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null,b=t.w
 a.p(b).toString
-s=A.aH(B.fs,c,c,c)
+s=A.aI(B.fs,c,c,c)
 r=A.t5(!1,d.e,A.iL(c,new A.dT(4,A.c0(18),B.bV),c,new A.S(20,15,20,15),c,c,c,c,!0,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,"Email",c,c,c,c,!1,c,c,c,c,c,s,c,c,c,c,c,c,c,c,c,c,c),B.hA,!1,new A.avn(d),B.d1,new A.avo())
-s=A.aH(B.pP,c,c,c)
+s=A.aI(B.pP,c,c,c)
 q=A.t5(!1,d.f,A.iL(c,new A.dT(4,A.c0(18),B.bV),c,new A.S(20,15,20,15),c,c,c,c,!0,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,c,"Password",c,c,c,c,!1,c,c,c,c,c,s,c,c,c,c,c,c,c,c,c,c,c),c,!0,new A.avp(d),B.eR,new A.avq())
 p=A.hv(B.F,!0,A.c0(30),A.aNI(A.D("Login",c,c,c,c,A.df(c,B.h,18,B.n),B.C,c,c),60,new A.avr(d),new A.S(20,10,20,15)),B.d,B.b4,10,c,c,c,c,c,B.bn)
 if(a.p(b).f.a.a<=650){s=A.D("Phonics Circle",c,c,c,c,A.df(c,c,30,c),c,c,c)
@@ -88346,7 +88346,7 @@ this.r.b7(0)
 var s=this.d
 s===$&&A.b()
 s.m()},
-I(a){var s=null,r=A.D("Phonics Circle",s,s,s,s,A.df(s,s,30,s),s,s,s),q=A.fC(s,A.aH(B.bz,B.h,s,s),s,new A.aDO(a),B.a8,s),p=A.lW(new A.aN(10,10)),o=t.p
+I(a){var s=null,r=A.D("Phonics Circle",s,s,s,s,A.df(s,s,30,s),s,s,s),q=A.fC(s,A.aI(B.bz,B.h,s,s),s,new A.aDO(a),B.a8,s),p=A.lW(new A.aN(10,10)),o=t.p
 return A.cK(A.fT(A.a([A.E(s,A.cU("assets/elesmall.png",B.ab),B.d,s,s,new A.bl(B.h,s,s,p,s,s,s,B.B),s,s,s,new A.S(0,5,5,5),s,s,s,50)],o),s,!0,0,q,r),s,A.aS(new A.ac(new A.S(0,0,0,5),A.aR(A.a([A.ab(A.cU("assets/phonics3.png",B.ab),100,s),A.ab(A.cU("assets/newrosie.gif",B.ab),140,s),A.D("Logged Out !!",s,s,s,s,A.df(s,s,20,B.z),s,s,s),A.cr(s,A.D("  Let's  Go  to  Home Page  -",s,s,s,s,A.df(B.b4,B.h,15,B.bx),s,s,s),B.D,!1,s,s,s,s,s,s,s,s,s,s,s,new A.aDP(this,a),s,s,s,s,s,s)],o),B.m,B.aq,B.l),s),s,s),s,s,s)}}
 A.aDQ.prototype={
 $0(){},
@@ -88380,11 +88380,11 @@ q=A.E(j,A.aS(A.Bm(A.D(""+r+" - "+new A.w5().yK("en-in",r),j,j,j,j,A.Z(j,j,B.h,j,
 i=t.p
 p=A.aR(A.a([s],i),B.bv,B.p,B.l)
 r=a.p(t.w).f
-o=A.mn(j,A.aH(B.di,j,j,j),j,j,B.ci,j,j,!1,new A.aEY(k),j,j)
+o=A.mn(j,A.aI(B.di,j,j,j),j,j,B.ci,j,j,!1,new A.aEY(k),j,j)
 n=$.bB()[k.a.c].f
-m=A.bE(A.a([A.E(j,A.fC(j,A.aH(B.bz,B.h,j,40),j,new A.aEZ(a),B.a8,j),B.d,j,j,j,j,j,j,new A.S(0,40,0,0),j,j,j,j)],i),B.m,B.p,B.l)
+m=A.bE(A.a([A.E(j,A.fC(j,A.aI(B.bz,B.h,j,40),j,new A.aEZ(a),B.a8,j),B.d,j,j,j,j,j,j,new A.S(0,40,0,0),j,j,j,j)],i),B.m,B.p,B.l)
 l=k.a.c
-return A.k0(!0,A.cK(j,B.ik,A.aR(A.a([A.E(j,A.ch(B.N,A.a([m,A.bE(A.a([A.E(j,A.bE(A.a([A.o8(A.cU($.bB()[l].a,j),""+l),A.D("Number Names",j,j,j,j,A.Z(j,j,B.h,j,j,j,j,j,j,j,j,25,j,j,B.n,j,j,!0,j,j,j,j,j,j,j,j),j,j,j)],i),B.m,B.p,B.l),B.d,j,j,j,j,j,j,new A.S(0,10,0,0),new A.S(20,20,20,20),j,j,j)],i),B.m,B.aq,B.l)],i),B.y,B.U,j),B.d,j,j,new A.bl(n,j,j,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),j,j,j,B.B),j,r.a.b/7,j,j,j,j,j,1/0),A.E(j,A.fI(p,j,j,j,B.E),B.d,j,j,j,j,500,j,j,j,j,j,j),A.E(j,A.bE(A.a([A.aHR(B.p,A.a([A.fC(B.h2,A.aH(B.pK,j,j,j),50,new A.aF_(k,q),B.I,j)],i)),A.aS(A.D("Press '+' for Number Names",j,j,j,j,A.Z(j,j,B.q,j,j,j,j,j,j,j,j,17,j,j,B.n,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),j,j)],i),B.m,B.p,B.l),B.d,j,j,j,j,j,j,j,j,j,j,j)],i),B.m,B.p,B.l),j,o,j),!0,B.I,!0,!0)}}
+return A.k0(!0,A.cK(j,B.ik,A.aR(A.a([A.E(j,A.ch(B.N,A.a([m,A.bE(A.a([A.E(j,A.bE(A.a([A.o8(A.cU($.bB()[l].a,j),""+l),A.D("Number Names",j,j,j,j,A.Z(j,j,B.h,j,j,j,j,j,j,j,j,25,j,j,B.n,j,j,!0,j,j,j,j,j,j,j,j),j,j,j)],i),B.m,B.p,B.l),B.d,j,j,j,j,j,j,new A.S(0,10,0,0),new A.S(20,20,20,20),j,j,j)],i),B.m,B.aq,B.l)],i),B.y,B.U,j),B.d,j,j,new A.bl(n,j,j,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),j,j,j,B.B),j,r.a.b/7,j,j,j,j,j,1/0),A.E(j,A.fI(p,j,j,j,B.E),B.d,j,j,j,j,500,j,j,j,j,j,j),A.E(j,A.bE(A.a([A.aHR(B.p,A.a([A.fC(B.h2,A.aI(B.pK,j,j,j),50,new A.aF_(k,q),B.I,j)],i)),A.aS(A.D("Press '+' for Number Names",j,j,j,j,A.Z(j,j,B.q,j,j,j,j,j,j,j,j,17,j,j,B.n,j,j,!0,j,j,j,j,j,j,j,j),j,j,j),j,j)],i),B.m,B.p,B.l),B.d,j,j,j,j,j,j,j,j,j,j,j)],i),B.m,B.p,B.l),j,o,j),!0,B.I,!0,!0)}}
 A.aEU.prototype={
 $2(a,b){var s=this.a
 s.G(new A.aEV(s,a,b))},
@@ -88425,7 +88425,7 @@ $0(){A.aq(this.a,!1).iP(null)},
 $S:0}
 A.aF_.prototype={
 $0(){var s=this.a
-s.G(new A.aES(s,this.b,A.aH(B.pM,B.G,null,90)))},
+s.G(new A.aES(s,this.b,A.aI(B.pM,B.G,null,90)))},
 $S:0}
 A.aES.prototype={
 $0(){var s,r=this.a;++r.f
@@ -88440,20 +88440,20 @@ $S:0}
 A.rE.prototype={
 V(){return new A.Ye(A.a([1,4,3,2,6,5,8,7,9,10],t.t),B.k)}}
 A.Ye.prototype={
-I(a){var s,r,q,p,o,n,m=this,l=null,k=t.w,j=a.p(k).f,i=A.mn(l,A.aH(B.di,l,l,l),l,l,B.ci,l,l,!1,new A.ayd(m),l,l)
+I(a){var s,r,q,p,o,n,m=this,l=null,k=t.w,j=a.p(k).f,i=A.mn(l,A.aI(B.di,l,l,l),l,l,B.ci,l,l,!1,new A.ayd(m),l,l)
 j=j.a.b
 s=$.bB()[m.a.c].f
 r=t.p
-q=A.bE(A.a([A.E(l,A.fC(l,A.aH(B.bz,B.h,l,40),l,new A.aye(a),B.a8,l),B.d,l,l,l,l,l,l,new A.S(0,40,0,0),l,l,l,l)],r),B.m,B.p,B.l)
+q=A.bE(A.a([A.E(l,A.fC(l,A.aI(B.bz,B.h,l,40),l,new A.aye(a),B.a8,l),B.d,l,l,l,l,l,l,new A.S(0,40,0,0),l,l,l,l)],r),B.m,B.p,B.l)
 p=m.a.c
 p=A.o8(A.cU($.bB()[p].a,l),""+p)
 o=A.ab(l,l,20)
 n=A.Z(l,l,B.h,l,l,l,l,l,l,l,l,20,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l)
-s=A.E(l,A.ch(B.N,A.a([q,A.bE(A.a([A.E(l,A.bE(A.a([p,o,A.QZ(l,l,B.bq,l,l,!0,l,A.e6(A.a([A.e6(l,l,"Double Click on "),new A.lt(A.aH(B.pQ,B.h,l,20),B.hb,l,l),A.e6(l,l," to Drag Numbers ")],t.VO),n,l),B.aG,l,l,1,B.aD)],r),B.m,B.p,B.l),B.d,l,l,l,l,l,l,new A.S(0,10,0,0),new A.S(20,20,20,20),l,l,l)],r),B.m,B.aq,B.l)],r),B.y,B.U,l),B.d,l,l,new A.bl(s,l,l,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),l,l,l,B.B),l,j/6,l,l,l,l,l,1/0)
+s=A.E(l,A.ch(B.N,A.a([q,A.bE(A.a([A.E(l,A.bE(A.a([p,o,A.QZ(l,l,B.bq,l,l,!0,l,A.e6(A.a([A.e6(l,l,"Double Click on "),new A.lt(A.aI(B.pQ,B.h,l,20),B.hb,l,l),A.e6(l,l," to Drag Numbers ")],t.VO),n,l),B.aG,l,l,1,B.aD)],r),B.m,B.p,B.l),B.d,l,l,l,l,l,l,new A.S(0,10,0,0),new A.S(20,20,20,20),l,l,l)],r),B.m,B.aq,B.l)],r),B.y,B.U,l),B.d,l,l,new A.bl(s,l,l,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),l,l,l,B.B),l,j/6,l,l,l,l,l,1/0)
 k=a.p(k).f.a.a<=650?520:j*0.7
 j=m.d
 q=A.ai(j).i("ag<1,hQ>")
-return A.cK(l,B.ik,A.aR(A.a([s,A.E(l,A.b_e(A.ao(new A.ag(j,new A.ayf(),q),!0,q.i("b1.E")),new A.ayg(m),B.GY),B.d,l,l,l,l,k,l,l,l,l,l,l),A.E(l,A.aHR(B.p,A.a([A.aR(A.a([A.fC(B.h2,A.aH(B.HI,l,l,l),50,new A.ayh(m,a),B.I,l)],r),B.m,B.p,B.l),A.D("Re-Order Score : "+m.e+" / 10",l,l,l,l,A.Z(l,l,B.h,l,l,l,l,l,l,l,l,20,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],r)),B.d,B.eo,l,l,l,70,l,l,l,l,l,l)],r),B.m,B.p,B.l),l,i,l)}}
+return A.cK(l,B.ik,A.aR(A.a([s,A.E(l,A.b_e(A.ao(new A.ag(j,new A.ayf(),q),!0,q.i("b1.E")),new A.ayg(m),B.GY),B.d,l,l,l,l,k,l,l,l,l,l,l),A.E(l,A.aHR(B.p,A.a([A.aR(A.a([A.fC(B.h2,A.aI(B.HI,l,l,l),50,new A.ayh(m,a),B.I,l)],r),B.m,B.p,B.l),A.D("Re-Order Score : "+m.e+" / 10",l,l,l,l,A.Z(l,l,B.h,l,l,l,l,l,l,l,l,20,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l)],r)),B.d,B.eo,l,l,l,70,l,l,l,l,l,l)],r),B.m,B.p,B.l),l,i,l)}}
 A.ayd.prototype={
 $0(){var s=this.a
 s.G(new A.ayc(s))},
@@ -88549,7 +88549,7 @@ $S:602}
 A.rv.prototype={
 V(){return new A.XJ(B.k)}}
 A.XJ.prototype={
-I(a0){var s,r,q,p,o,n,m,l=this,k=null,j=u.B,i=u.a,h=u.v,g=u.I,f=t.w,e=a0.p(f).f.a.b,d=$.bB()[l.a.c].f,c=t.p,b=A.bE(A.a([A.E(k,A.fC(k,A.aH(B.bz,B.h,k,40),k,new A.ax8(a0),B.a8,k),B.d,k,k,k,k,k,k,new A.S(0,40,0,0),k,k,k,k)],c),B.m,B.p,B.l),a=l.a.c
+I(a0){var s,r,q,p,o,n,m,l=this,k=null,j=u.B,i=u.a,h=u.v,g=u.I,f=t.w,e=a0.p(f).f.a.b,d=$.bB()[l.a.c].f,c=t.p,b=A.bE(A.a([A.E(k,A.fC(k,A.aI(B.bz,B.h,k,40),k,new A.ax8(a0),B.a8,k),B.d,k,k,k,k,k,k,new A.S(0,40,0,0),k,k,k,k)],c),B.m,B.p,B.l),a=l.a.c
 d=A.E(k,A.ch(B.N,A.a([b,A.bE(A.a([A.E(k,A.bE(A.a([A.o8(A.cU($.bB()[a].a,k),""+a)],c),B.m,B.p,B.l),B.d,k,k,k,k,k,k,new A.S(0,10,0,0),new A.S(20,20,20,20),k,k,k)],c),B.m,B.aq,B.l)],c),B.y,B.U,k),B.d,k,k,new A.bl(d,k,k,new A.cd(B.L,B.L,new A.aN(24,24),new A.aN(24,24)),k,k,k,B.B),k,e/6,k,k,k,k,k,1/0)
 a=A.ab(k,k,20)
 b=t.N
@@ -88637,14 +88637,14 @@ r=A.e_(new A.bu(q))
 s=$.aU()
 return new A.XQ(r,new A.bi(null,t.am),new A.h9(B.aW,s),new A.h9(B.aW,s),new A.h9(B.aW,s),new A.h9(B.aW,s),new A.h9(B.aW,s),B.k)}}
 A.XQ.prototype={
-I(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=t.w,e=a.p(f).f.a,d=A.aH(B.pJ,g,g,g),c=A.t5(!1,h.f,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"First Name",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),B.zQ,!1,new A.axw(h),B.d1,new A.axx())
-d=A.aH(B.pJ,g,g,g)
+I(a){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=t.w,e=a.p(f).f.a,d=A.aI(B.pJ,g,g,g),c=A.t5(!1,h.f,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"First Name",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),B.zQ,!1,new A.axw(h),B.d1,new A.axx())
+d=A.aI(B.pJ,g,g,g)
 s=A.t5(!1,h.r,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"Second Name",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),B.zQ,!1,new A.axy(h),B.d1,new A.axD())
-d=A.aH(B.HN,g,g,g)
+d=A.aI(B.HN,g,g,g)
 r=A.t5(!1,h.w,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"Mobile Number",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),B.QJ,!1,new A.axE(h),B.d1,new A.axF())
-d=A.aH(B.fs,g,g,g)
+d=A.aI(B.fs,g,g,g)
 q=A.t5(!1,h.x,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"Email",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),B.hA,!1,new A.axG(h),B.d1,new A.axH())
-d=A.aH(B.pP,g,g,g)
+d=A.aI(B.pP,g,g,g)
 p=A.t5(!1,h.y,A.iL(g,new A.dT(4,A.c0(18),B.bV),g,new A.S(20,15,20,15),g,g,g,g,!0,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,"Password",g,g,g,g,!1,g,g,g,g,g,d,g,g,g,g,g,g,g,g,g,g,g),g,!0,new A.axI(h),B.eR,new A.axJ())
 d=A.c0(30)
 o=a.p(f).f
@@ -88653,7 +88653,7 @@ m=A.E(B.f1,a.p(f).f.a.a>=1100?A.hx(A.cr(g,A.D("Private Policy",g,g,g,g,A.Z(g,g,B
 l=A.E(B.f1,a.p(f).f.a.a>=1100?A.hx(A.cr(g,A.D("Terms and Conditions",g,g,g,g,A.Z(g,g,B.b4,g,g,g,g,g,g,g,g,15,g,g,B.n,g,g,!0,g,g,g,g,g,g,g,g),B.C,g,g),B.D,!1,g,g,g,g,g,g,g,g,g,g,g,new A.axA(),g,g,g,g,g,g),B.bp,g,g,g):A.E(g,g,B.d,g,g,g,g,g,g,g,g,g,g,g),B.d,g,g,g,g,g,g,g,g,g,g,g)
 k=A.E(B.f1,a.p(f).f.a.a>=1100?A.hx(A.cr(g,A.D("Return Policy",g,g,g,g,A.Z(g,g,B.b4,g,g,g,g,g,g,g,g,15,g,g,B.n,g,g,!0,g,g,g,g,g,g,g,g),B.C,g,g),B.D,!1,g,g,g,g,g,g,g,g,g,g,g,new A.axB(),g,g,g,g,g,g),B.bp,g,g,g):A.E(g,g,B.d,g,g,g,g,g,g,g,g,g,g,g),B.d,g,g,g,g,g,g,g,g,g,g,g)
 d=A.D("Welcome to Registration Page",g,g,g,g,g,g,g,g)
-d=A.fT(g,B.J,!0,0,!(a.p(f).f.a.a>=1100)?A.fC(g,A.aH(B.bz,B.h,g,g),g,new A.axC(a),B.a8,g):A.E(g,g,B.d,g,g,g,g,g,g,g,g,g,g,g),d)
+d=A.fT(g,B.J,!0,0,!(a.p(f).f.a.a>=1100)?A.fC(g,A.aI(B.bz,B.h,g,g),g,new A.axC(a),B.a8,g):A.E(g,g,B.d,g,g,g,g,g,g,g,g,g,g,g),d)
 f=a.p(f).f.a.a<=650?A.ab(A.cU("assets/phonics3.png",B.ab),e.b*0.1,g):A.ab(g,g,g)
 o=e.b
 j=o/40
@@ -88805,7 +88805,7 @@ I(a){var s,r=this,q=null,p=a.p(t.w).f,o=A.fT(q,q,!0,q,q,A.D("Phonics Circle",q,q
 n=A.a([B.ip,B.bm],n)
 l=A.a([0,1],l)
 s=A.AA(B.nX,new A.eg("assets/phonics3.png",q,q),q)
-return A.cK(o,q,A.aS(A.E(q,A.qP(A.a([A.E(q,A.D("",q,q,q,q,A.Z(q,q,B.h,q,q,q,q,q,q,q,q,30,q,q,B.n,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.d,q,q,new A.bl(q,s,q,q,q,new A.i2(B.cl,B.iY,B.ba,n,l,q),q,B.B),q,p.a.b/9,q,new A.S(20,20,20,20),q,q,q,q),A.aS(A.E(q,A.D("Click to Share APP & Earn",q,q,q,q,A.Z(q,q,B.bD,q,q,q,q,q,q,q,q,q,q,q,B.n,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),q,q),A.E(q,A.bJ(q,B.bl,A.aH(B.j_,q,q,q),new A.aGT(r),q,q,A.D("Share on Whatsapp",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,B.G,A.aH(B.pL,q,q,q),new A.aGU(r),q,q,A.D("Share on Facebook",q,q,q,q,A.Z(q,q,B.G,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,q,A.E(q,A.dP("https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/insta.jpg?alt=media&token=23d292c1-42b5-4aa5-bc68-36d1f8597d7b",B.r,B.cC,q,q),B.d,q,q,q,q,20,q,q,q,q,q,20),new A.aGV(r),q,q,A.D("Share on Instagram",q,q,q,q,A.Z(q,q,B.bD,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,B.G,A.aH(B.fs,q,q,q),new A.aGW(r),q,q,A.D("Share on email",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.bJ(q,B.bl,A.aH(B.HQ,q,q,q),new A.aGX(r),q,q,A.D("Contact Us on Whatsapp",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),new A.ac(new A.S(17,8,0,10),A.D("\ud83d\udcde    - Call / whatsapp - 9831204230  \nRefer your Friends name and Earn Rs.50/- \nWhen your Friend Purchase our APP. ",q,q,q,q,A.Z(q,q,B.G,q,q,q,q,q,q,q,q,15,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q)],t.p),q,q),B.d,q,q,new A.bl(q,q,q,q,q,new A.i2(B.cl,B.pD,B.ba,m,k,q),q,B.B),q,q,q,q,q,q,q,q),q,q),q,q,q)}}
+return A.cK(o,q,A.aS(A.E(q,A.qP(A.a([A.E(q,A.D("",q,q,q,q,A.Z(q,q,B.h,q,q,q,q,q,q,q,q,30,q,q,B.n,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.d,q,q,new A.bl(q,s,q,q,q,new A.i2(B.cl,B.iY,B.ba,n,l,q),q,B.B),q,p.a.b/9,q,new A.S(20,20,20,20),q,q,q,q),A.aS(A.E(q,A.D("Click to Share APP & Earn",q,q,q,q,A.Z(q,q,B.bD,q,q,q,q,q,q,q,q,q,q,q,B.n,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),q,q),A.E(q,A.bJ(q,B.bl,A.aI(B.j_,q,q,q),new A.aGT(r),q,q,A.D("Share on Whatsapp",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,B.G,A.aI(B.pL,q,q,q),new A.aGU(r),q,q,A.D("Share on Facebook",q,q,q,q,A.Z(q,q,B.G,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,q,A.E(q,A.dP("https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/insta.jpg?alt=media&token=23d292c1-42b5-4aa5-bc68-36d1f8597d7b",B.r,B.cC,q,q),B.d,q,q,q,q,20,q,q,q,q,q,20),new A.aGV(r),q,q,A.D("Share on Instagram",q,q,q,q,A.Z(q,q,B.bD,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.E(q,A.bJ(q,B.G,A.aI(B.fs,q,q,q),new A.aGW(r),q,q,A.D("Share on email",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),B.d,B.h,q,q,q,q,q,q,q,q,q,q),A.bJ(q,B.bl,A.aI(B.HQ,q,q,q),new A.aGX(r),q,q,A.D("Contact Us on Whatsapp",q,q,q,q,A.Z(q,q,B.bl,q,q,q,q,q,q,q,q,q,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q),new A.ac(new A.S(17,8,0,10),A.D("\ud83d\udcde    - Call / whatsapp - 9831204230  \nRefer your Friends name and Earn Rs.50/- \nWhen your Friend Purchase our APP. ",q,q,q,q,A.Z(q,q,B.G,q,q,q,q,q,q,q,q,15,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),q,q,q),q)],t.p),q,q),B.d,q,q,new A.bl(q,q,q,q,q,new A.i2(B.cl,B.pD,B.ba,m,k,q),q,B.B),q,q,q,q,q,q,q,q),q,q),q,q,q)}}
 A.aGT.prototype={
 $0(){this.a.c6(0,B.zs)},
 $S:0}
@@ -99379,15 +99379,14 @@ r($,"baM","Kb",()=>{var q="All Levels Completed",p="2 Levels Completed"
 return A.a([A.jr(0,"https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/Anish.jpg?alt=media&token=c3b69225-c422-424e-8f7b-20c3d8b8be0e",q,"https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/Anish.MP4?alt=media&token=333a71a0-9ae7-452e-95a1-ba8328eaf115","Anish - Age 4"),A.jr(1,"https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/Meera.jpg?alt=media&token=ff1cd7a2-c31f-4048-9ae7-bca91d827c1e",q,"https://firebasestorage.googleapis.com/v0/b/phonicscirclepro.appspot.com/o/Reading1.MP4?alt=media&token=dd380ecd-c94b-4906-9cba-8c5f6f21a81b","Arnav - Age 5"),A.jr(2,"https://videos.phonicscircle.com/video/Success/AkshiPant.png","1  Level Completed","https://videos.phonicscircle.com/video/Success/AkshiPant.mp4","Akshi - Age 5"),A.jr(3,"https://videos.phonicscircle.com/video/Success/LaishaM.png",p,"https://videos.phonicscircle.com/video/Success/LaishaMalhotra.mp4","Laisha - Age 4"),A.jr(4,"https://videos.phonicscircle.com/video/Success/AyushiKatira.jpg",p,"https://videos.phonicscircle.com/video/Success/AyushiKatira.mp4","Ayushi - Age 5"),A.jr(5,"https://videos.phonicscircle.com/video/Success/5.jpg","","https://videos.phonicscircle.com/video/Success/5.mp4",""),A.jr(6,"https://videos.phonicscircle.com/video/Success/6.jpg","","https://videos.phonicscircle.com/video/Success/6.mp4",""),A.jr(7,"https://videos.phonicscircle.com/video/Success/7.jpg","","https://videos.phonicscircle.com/video/Success/7.mp4",""),A.jr(8,"https://videos.phonicscircle.com/video/Success/8.jpg","","https://videos.phonicscircle.com/video/Success/8.mp4",""),A.jr(9,"https://videos.phonicscircle.com/video/Success/9.jpg","","https://videos.phonicscircle.com/video/Success/9.mp4",""),A.jr(10,"https://videos.phonicscircle.com/video/Success/10.jpg","","https://videos.phonicscircle.com/video/Success/10.mp4",""),A.jr(11,"https://videos.phonicscircle.com/video/Success/11.jpg","","https://videos.phonicscircle.com/video/Success/11.mp4",""),A.jr(12,"https://videos.phonicscircle.com/video/Success/12.jpg","","https://videos.phonicscircle.com/video/Success/12.mp4","")],A.am("K<a17>"))})
 r($,"baN","bB",()=>{var q="Introduction",p="Video",o="Two Letter Words"
 return A.a([A.zg(A.uD(4294944550),0,"assets/Ele_Parents.png",q,p,"Develop Reading Habbit for Kids Aged Between 1 & 7 Years Old. FOCUS IS TO TEACH PHONICS SOUNDS AND SPELLINGS. For more details - Please Watch Introduction Video for Parents. ",A.aNz(q,"","https://videos.phonicscircle.com/video/book.mp4")),A.zg(A.uD(4293673082),1,"assets/2LW.png",o,p,"3 Lessons for 1 or 2 years old KidsRule: Watch 5 Mins Daily One Lesson Twice ",A.aNz(o,"","https://videos.phonicscircle.com/video/10Less_3ltr.mp4")),A.zg(A.uD(4294929984),2,"assets/4LW.png","Three Letter Words",p,"10 Lessons - 300 Words & Sentences Rule: Watch 5-10 Mins, One Lesson Twice / Trice a Day",""),A.zg(A.uD(4283215696),3,"assets/3Lw.png","Four Letter Words",p,"7 Lessons - 400 Words & Sentences, Rule: Watch One Lesson Twice / Trice a Day",""),A.zg(A.uD(4293558524),4,"assets/read3.png","A - Z Phonics Sounds",p,"Now Learn Technique with all rules & explanation Rule: Watch Twice a Day, Pause Video & Write Words in Book",""),A.zg(A.uD(4280391411),5,"assets/reading2.png","Phonics Practice",p,"Practice makes Kids Super Reader Rule: Watch Twice a Day & Write Words in Book",""),A.zg(A.uD(4279477955),6,"assets/spelling.png","Spelling Practice",p,"Now Learn Secret To Become Spelling Champ, Rule: Watch, Pause Video and Write Words in your Book","")],A.am("K<a19>"))})
-r($,"baO","aLk",()=>A.a([A.aI("https://videos.phonicscircle.com/video/IntroNew.mp4","0"),A.aI("","1"),A.aI("","2"),A.aI("","3"),A.aI("","4"),A.aI("","5"),A.aI("","6"),A.aI("","7"),A.aI("","8"),A.aI("","9"),A.aI("","10"),A.aI("","11")],t.Qd))
+r($,"baO","aLk",()=>A.a([A.aH("https://videos.phonicscircle.com/video/IntroNew.mp4","0"),A.aH("","1"),A.aH("","2"),A.aH("","3"),A.aH("","4"),A.aH("","5"),A.aH("","6"),A.aH("","7"),A.aH("","8"),A.aH("","9"),A.aH("","10"),A.aH("","11")],t.Qd))
 r($,"baP","aV8",()=>{var q="https://videos.phonicscircle.com/video/1c_2LW_Spellings1.mp4"
-return A.a([A.aI("https://videos.phonicscircle.com/video/Alpha_song.mp4","0"),A.aI(q,"1"),A.aI("https://videos.phonicscircle.com/video/1b_2LW_Spell-Revision.mp4","2"),A.aI(q,"3"),A.aI("","4"),A.aI("","5"),A.aI("","6"),A.aI("","7"),A.aI("","8"),A.aI("","9"),A.aI("","10"),A.aI("","11")],t.Qd)})
-r($,"baQ","aLl",()=>A.a([A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/4Lesson_3Lw.mp4","0"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/5Less_3LW.mp4","1"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/6Less_3LW.mp4","2"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/7Less_3LW.mp4","3"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/8Less_3LW.mp4","4"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/9aLess_3LW.mp4","5"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/9bLess_3ltr.mp4","6"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/10Less_3ltr.mp4","7"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/11Less_3ltr.mp4","8"),A.aI("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/12Less_3ltr.mp4","9"),A.aI("","10"),A.aI("https://videos.phonicscircle.com/video/Final_3LW.mp4","11")],t.Qd))
-r($,"baR","aLm",()=>A.a([A.aI("https://videos.phonicscircle.com/video/4LW1.mp4","0"),A.aI("https://videos.phonicscircle.com/video/4LW2.mp4","1"),A.aI("https://videos.phonicscircle.com/video/4LW3.mp4","2"),A.aI("https://videos.phonicscircle.com/video/4LW4.mp4","3"),A.aI("https://videos.phonicscircle.com/video/4LW5.mp4","4"),A.aI("https://videos.phonicscircle.com/video/4LW6.mp4","5"),A.aI(u.y,"6"),A.aI("","7"),A.aI("","8"),A.aI("","9"),A.aI("","10"),A.aI("","11")],t.Qd))
-r($,"baS","aLn",()=>{var q="https://videos.phonicscircle.com/video/P_DV.mp4"
-return A.a([A.aI("https://videos.phonicscircle.com/video/PS1.mp4","0"),A.aI("https://videos.phonicscircle.com/video/P_ConDia2.mp4","1"),A.aI("https://videos.phonicscircle.com/video/P_ImpExe2.mp4","2"),A.aI("https://videos.phonicscircle.com/video/P_SS.mp4","3"),A.aI("https://videos.phonicscircle.com/video/P_3Nofly.mp4","4"),A.aI("https://videos.phonicscircle.com/video/P_ICS.mp4","5"),A.aI("https://videos.phonicscircle.com/video/PFC.mp4","6"),A.aI("https://videos.phonicscircle.com/video/P_Vow.mp4","7"),A.aI("https://videos.phonicscircle.com/video/P_fE.mp4","8"),A.aI(q,"9"),A.aI(q,"10"),A.aI("","11")],t.Qd)})
-r($,"baT","aLo",()=>A.a([A.aI("https://videos.phonicscircle.com/video/PSnd_AtoD.mp4","0"),A.aI("https://videos.phonicscircle.com/video/PSnd_EtoH.mp4","1"),A.aI("https://videos.phonicscircle.com/video/PSnd_ItoN.mp4","2"),A.aI("https://videos.phonicscircle.com/video/PSnd_O.mp4","3"),A.aI("https://videos.phonicscircle.com/video/PSnd_PtoT.mp4","4"),A.aI("https://videos.phonicscircle.com/video/PSnd_UtoZ.mp4","5"),A.aI(u.y,"6"),A.aI("","7"),A.aI("","8"),A.aI("","9"),A.aI("","10"),A.aI("","11")],t.Qd))
-r($,"baU","aLp",()=>A.a([A.aI("https://videos.phonicscircle.com/video/PSpell_A1.mp4","0"),A.aI("https://videos.phonicscircle.com/video/PSpell_A2.mp4","1"),A.aI("https://videos.phonicscircle.com/video/PSpell_B2D.mp4","2"),A.aI("https://videos.phonicscircle.com/video/PSpell_E2F.mp4","3"),A.aI("https://videos.phonicscircle.com/video/PSpell_G_H.mp4","4"),A.aI("https://videos.phonicscircle.com/video/PSpell_I.mp4","5"),A.aI("https://videos.phonicscircle.com/video/PSpell_K_N.mp4","6"),A.aI("https://videos.phonicscircle.com/video/PSpell_O.mp4","7"),A.aI("https://videos.phonicscircle.com/video/PSpell_PQR.mp4","8"),A.aI("https://videos.phonicscircle.com/video/PSpell_TU.mp4","9"),A.aI("https://videos.phonicscircle.com/video/PSpell_VtoZ.mp4","10"),A.aI("","11")],t.Qd))
+return A.a([A.aH("https://videos.phonicscircle.com/video/Alpha_song.mp4","0"),A.aH(q,"1"),A.aH("https://videos.phonicscircle.com/video/1b_2LW_Spell-Revision.mp4","2"),A.aH(q,"3"),A.aH("","4"),A.aH("","5"),A.aH("","6"),A.aH("","7"),A.aH("","8"),A.aH("","9"),A.aH("","10"),A.aH("","11")],t.Qd)})
+r($,"baQ","aLl",()=>A.a([A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/1Less_3LW.mp4","0"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/4Lesson_3Lw.mp4","1"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/5Less_3LW.mp4","2"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/6Less_3LW.mp4","3"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/7Less_3LW.mp4","4"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/8Less_3LW.mp4","5"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/9aLess_3LW.mp4","6"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/9bLess_3LW.mp4","7"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/10Less_3ltr.mp4","8"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/11Less_3LW.mp4","9"),A.aH("https://videos.phonicscircle.com/video/2 and 3 Letter Words/2 and 3 Letter Words/12Less_3LW.mp4","10"),A.aH("","11"),A.aH("https://videos.phonicscircle.com/video/Final_3LW.mp4","12")],t.Qd))
+r($,"baR","aLm",()=>A.a([A.aH("https://videos.phonicscircle.com/video/4LW1.mp4","0"),A.aH("https://videos.phonicscircle.com/video/4LW2.mp4","1"),A.aH("https://videos.phonicscircle.com/video/4LW3.mp4","2"),A.aH("https://videos.phonicscircle.com/video/4LW4.mp4","3"),A.aH("https://videos.phonicscircle.com/video/4LW5.mp4","4"),A.aH("https://videos.phonicscircle.com/video/4LW6.mp4","5"),A.aH(u.y,"6"),A.aH("","7"),A.aH("","8"),A.aH("","9"),A.aH("","10"),A.aH("","11")],t.Qd))
+r($,"baS","aLn",()=>A.a([A.aH("https://videos.phonicscircle.com/video/PS1.mp4","0"),A.aH("https://videos.phonicscircle.com/video/P_ConDia2.mp4","1"),A.aH("https://videos.phonicscircle.com/video/P_ImpExe2.mp4","2"),A.aH("https://videos.phonicscircle.com/video/P_SS.mp4","3"),A.aH("https://videos.phonicscircle.com/video/P_3Nofly.mp4","4"),A.aH("https://videos.phonicscircle.com/video/P_ICS.mp4","5"),A.aH("https://videos.phonicscircle.com/video/PFC.mp4","6"),A.aH("https://videos.phonicscircle.com/video/P_Vow.mp4","7"),A.aH("https://videos.phonicscircle.com/video/P_fE.mp4","8"),A.aH("https://videos.phonicscircle.com/video/P_DV.mp4","9"),A.aH("https://videos.phonicscircle.com/video/P_RS.mp4","10"),A.aH("","11")],t.Qd))
+r($,"baT","aLo",()=>A.a([A.aH("https://videos.phonicscircle.com/video/PSnd_AtoD.mp4","0"),A.aH("https://videos.phonicscircle.com/video/PSnd_EtoH.mp4","1"),A.aH("https://videos.phonicscircle.com/video/PSnd_ItoN.mp4","2"),A.aH("https://videos.phonicscircle.com/video/PSnd_O.mp4","3"),A.aH("https://videos.phonicscircle.com/video/PSnd_PtoT.mp4","4"),A.aH("https://videos.phonicscircle.com/video/PSnd_UtoZ.mp4","5"),A.aH(u.y,"6"),A.aH("","7"),A.aH("","8"),A.aH("","9"),A.aH("","10"),A.aH("","11")],t.Qd))
+r($,"baU","aLp",()=>A.a([A.aH("https://videos.phonicscircle.com/video/PSpell_A1.mp4","0"),A.aH("https://videos.phonicscircle.com/video/PSpell_A2.mp4","1"),A.aH("https://videos.phonicscircle.com/video/PSpell_B2D.mp4","2"),A.aH("https://videos.phonicscircle.com/video/PSpell_E2F.mp4","3"),A.aH("https://videos.phonicscircle.com/video/PSpell_G_H.mp4","4"),A.aH("https://videos.phonicscircle.com/video/PSpell_I.mp4","5"),A.aH("https://videos.phonicscircle.com/video/PSpell_K_N.mp4","6"),A.aH("https://videos.phonicscircle.com/video/PSpell_O.mp4","7"),A.aH("https://videos.phonicscircle.com/video/PSpell_PQR.mp4","8"),A.aH("https://videos.phonicscircle.com/video/PSpell_TU.mp4","9"),A.aH("https://videos.phonicscircle.com/video/PSpell_VtoZ.mp4","10"),A.aH("","11")],t.Qd))
 s($,"baA","aLg",()=>new A.LA(t.P1.a($.aHr()),null))
 s($,"b8x","a1p",()=>new A.Q8(A.bL("/",!0),A.bL("[^/]$",!0),A.bL("^/",!0)))
 s($,"b8z","a1q",()=>new A.Td(A.bL("[/\\\\]",!0),A.bL("[^/\\\\]$",!0),A.bL("^(\\\\\\\\[^\\\\]+\\\\[^\\\\/]+|[a-zA-Z]:[/\\\\])",!0),A.bL("^[/\\\\](?![/\\\\])",!0)))
