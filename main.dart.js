@@ -88500,9 +88500,9 @@ s=A.fS(l,l,!0,l,l,A.D("Phonics Circle",l,l,l,l,l,l,l,l))
 r=!(a.p(k).f.a.a>=1100)||A.eT(a)?A.ac(A.cV("assets/phonics3.png",B.aa),40,l):A.ac(l,l,l)
 q=A.ac(l,10,l)
 p=a.p(k).f.a.a<=650?350:400
-p=A.ac(A.D("Please SignUp to Make Payment for Website. \nOnce Paid, Please Sign In for Complete Access.",l,l,l,l,A.Y(l,l,B.G,l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),40,p)
+p=A.ac(A.D("For Registration, Kindly WhatsApp at +91 9004334180.",l,l,l,l,A.Y(l,l,B.G,l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),40,p)
 o=A.ac(l,20,l)
-n=a.p(k).f.a.a<=650?350:390
+n=a.p(k).f.a.a<=650?350:430
 m=a.p(k).f.a.a<=650?350:400
 m=A.ac(A.cV("assets/payment.png",B.ce),n,m)
 n=A.ac(l,20,l)
