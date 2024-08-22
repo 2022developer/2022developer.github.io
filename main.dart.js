@@ -88503,8 +88503,8 @@ p=a.p(k).f.a.a<=650?350:400
 p=A.ac(A.D("For Registration, Kindly WhatsApp at +91 9004334180.",l,l,l,l,A.Y(l,l,B.G,l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),40,p)
 o=A.ac(l,20,l)
 n=a.p(k).f.a.a<=650?350:430
-m=a.p(k).f.a.a<=650?350:400
-m=A.ac(A.cV("assets/payment.png",B.ce),n,m)
+m=a.p(k).f.a.a<=650?350:680
+m=A.ac(A.cV("assets/payment.png",B.aa),n,m)
 n=A.ac(l,20,l)
 return A.cL(s,l,A.aS(new A.ab(new A.S(10,10,10,10),A.fI(A.aP(A.a([r,q,p,o,m,n,a.p(k).f.a.a<=650?A.bY(A.D("Register",l,l,l,l,A.Y(l,l,B.h,l,l,l,l,l,l,l,l,15,l,l,B.n,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),B.d,new A.aF4(a),l):A.E(l,l,B.d,l,l,l,l,l,l,l,l,l,l,l)],t.p),B.m,B.aD,B.l),l,l,l,B.E),l),l,l),l,l,l)}}
 A.aF4.prototype={
